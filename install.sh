@@ -1,6 +1,6 @@
 #!/bin/bash
 
-extensionFolder="randomwallpaper@iflow.space"
+extensionFolder="randomwallpaper@leonard.io"
 sourcepath="$PWD/$extensionFolder"
 targetpath="/home/$USER/.local/share/gnome-shell/extensions"
 

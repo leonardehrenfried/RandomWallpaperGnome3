@@ -8,12 +8,12 @@ const Convenience = Self.imports.convenience;
 
 const WallpaperController = Self.imports.wallpaperController;
 
-const RWG_SETTINGS_SCHEMA = 'org.gnome.shell.extensions.space.iflow.randomwallpaper';
-const RWG_SETTINGS_SCHEMA_DESKTOPPER = 'org.gnome.shell.extensions.space.iflow.randomwallpaper.desktopper';
-const RWG_SETTINGS_SCHEMA_UNSPLASH = 'org.gnome.shell.extensions.space.iflow.randomwallpaper.unsplash';
-const RWG_SETTINGS_SCHEMA_WALLHAVEN = 'org.gnome.shell.extensions.space.iflow.randomwallpaper.wallhaven';
-const RWG_SETTINGS_SCHEMA_REDDIT = 'org.gnome.shell.extensions.space.iflow.randomwallpaper.reddit';
-const RWG_SETTINGS_SCHEMA_GENERIC_JSON = 'org.gnome.shell.extensions.space.iflow.randomwallpaper.genericJSON';
+const RWG_SETTINGS_SCHEMA = 'org.gnome.shell.extensions.io.leonard.randomwallpaper';
+const RWG_SETTINGS_SCHEMA_DESKTOPPER = 'org.gnome.shell.extensions.io.leonard.randomwallpaper.desktopper';
+const RWG_SETTINGS_SCHEMA_UNSPLASH = 'org.gnome.shell.extensions.io.leonard.randomwallpaper.unsplash';
+const RWG_SETTINGS_SCHEMA_WALLHAVEN = 'org.gnome.shell.extensions.io.leonard.randomwallpaper.wallhaven';
+const RWG_SETTINGS_SCHEMA_REDDIT = 'org.gnome.shell.extensions.io.leonard.randomwallpaper.reddit';
+const RWG_SETTINGS_SCHEMA_GENERIC_JSON = 'org.gnome.shell.extensions.io.leonard.randomwallpaper.genericJSON';
 
 const LoggerModule = Self.imports.logger;
 

@@ -38,7 +38,7 @@ __Installing this way has various advantages:__
 
 ## Installation (manually)
 
-Clone or download the repository and copy the folder `randomwallpaper@iflow.space` in the repository to `~/.local/share/gnome-shell/extensions/`.
+Clone or download the repository and copy the folder `randomwallpaper@leonard.io` in the repository to `~/.local/share/gnome-shell/extensions/`.
 
 Then open the command prompt (Alt+F2) end enter `r` to restart the gnome session. 
 In the case you are using Wayland, then no restart should be required.
@@ -47,14 +47,14 @@ Now you should be able to activate the extension through the gnome-tweak-tool.
 
 ## Uninstall
 Run `./install uninstall` to delete the symbolic link.
-If you installed the extension manually you have to delete the extension folder `randomwallpaper@iflow.space` in `~/.local/share/gnome-shell/extensions/`.
+If you installed the extension manually you have to delete the extension folder `randomwallpaper@leonard.io` in `~/.local/share/gnome-shell/extensions/`.
 
 ## Debugging
 You can follow the output of the extension with `./debug.sh`. Information should be printed using the existing logger class but can also be printed with `global.log()` (not recommended).
 To debug the `prefs.js` use `./debug.sh perfs`.
 
 ## Compiling schemas
-This can be done with the command: `glib-compile-schemas randomwallpaper@iflow.space/schemas/`
+This can be done with the command: `glib-compile-schemas randomwallpaper@leonard.io/schemas/`
 
 ## Support Me
 If you enjoy this extension and want to support the development, then feel free to buy me a coffee. :wink: :coffee:

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist gettext-domain='gnome-shell-extensions'>
 
-    <enum id='org.gnome.shell.extensions.space.iflow.randomwallpaper.sources'>
+    <enum id='org.gnome.shell.extensions.io.leonard.randomwallpaper.sources'>
         <value value='0' nick='unsplash'/>
         <value value='1' nick='desktoppr'/>
         <value value='2' nick='wallhaven'/>
@@ -9,8 +9,8 @@
         <value value='4' nick='genericJSON'/>
     </enum>
 
-    <schema path="/org/gnome/shell/extensions/space-iflow-randomwallpaper/"
-            id='org.gnome.shell.extensions.space.iflow.randomwallpaper'>
+    <schema path="/org/gnome/shell/extensions/io-leonard-randomwallpaper/"
+            id='org.gnome.shell.extensions.io.leonard.randomwallpaper'>
 
         <key type='i' name='history-length'>
             <default>5</default>
@@ -39,7 +39,7 @@
             <range min='0' max='23'/>
         </key>
 
-        <key name='source' enum='org.gnome.shell.extensions.space.iflow.randomwallpaper.sources'>
+        <key name='source' enum='org.gnome.shell.extensions.io.leonard.randomwallpaper.sources'>
             <default>'unsplash'</default>
             <summary>Wallpaper Source</summary>
             <description>Describes the adapter that will be used.</description>
@@ -78,8 +78,8 @@
 
     </schema>
 
-    <schema path="/org/gnome/shell/extensions/space-iflow-randomwallpaper/desktopper/"
-            id='org.gnome.shell.extensions.space.iflow.randomwallpaper.desktopper'>
+    <schema path="/org/gnome/shell/extensions/io-leonard-randomwallpaper/desktopper/"
+            id='org.gnome.shell.extensions.io.leonard.randomwallpaper.desktopper'>
         <key type='b' name='allow-unsafe'>
             <default>false</default>
             <summary>Allow Unsafe</summary>
@@ -87,8 +87,8 @@
         </key>
     </schema>
 
-    <schema path="/org/gnome/shell/extensions/space-iflow-randomwallpaper/unsplash/"
-            id='org.gnome.shell.extensions.space.iflow.randomwallpaper.unsplash'>
+    <schema path="/org/gnome/shell/extensions/io-leonard-randomwallpaper/unsplash/"
+            id='org.gnome.shell.extensions.io.leonard.randomwallpaper.unsplash'>
         <key type='s' name='unsplash-keyword'>
             <default>""</default>
             <summary>Keyword</summary>
@@ -123,8 +123,8 @@
         </key>
     </schema>
 
-    <schema path="/org/gnome/shell/extensions/space-iflow-randomwallpaper/wallhaven/"
-            id='org.gnome.shell.extensions.space.iflow.randomwallpaper.wallhaven'>
+    <schema path="/org/gnome/shell/extensions/io-leonard-randomwallpaper/wallhaven/"
+            id='org.gnome.shell.extensions.io.leonard.randomwallpaper.wallhaven'>
         <key type='s' name='wallhaven-keyword'>
             <default>""</default>
             <summary>Keyword</summary>
@@ -163,8 +163,8 @@
         </key>
     </schema>
 
-    <schema path="/org/gnome/shell/extensions/space-iflow-randomwallpaper/reddit/"
-            id='org.gnome.shell.extensions.space.iflow.randomwallpaper.reddit'>
+    <schema path="/org/gnome/shell/extensions/io-leonard-randomwallpaper/reddit/"
+            id='org.gnome.shell.extensions.io.leonard.randomwallpaper.reddit'>
         <key type='s' name='subreddits'>
             <default>""</default>
             <summary>Subreddits</summary>
@@ -177,8 +177,8 @@
         </key>
     </schema>
 
-    <schema path="/org/gnome/shell/extensions/space-iflow-randomwallpaper/genericJSON/"
-            id='org.gnome.shell.extensions.space.iflow.randomwallpaper.genericJSON'>
+    <schema path="/org/gnome/shell/extensions/io-leonard-randomwallpaper/genericJSON/"
+            id='org.gnome.shell.extensions.io.leonard.randomwallpaper.genericJSON'>
         <key type='s' name='generic-json-request-url'>
             <default>""</default>
             <summary>The request URL</summary>
