@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BASEDIR="randomwallpaper@iflow.space"
+BASEDIR="randomwallpaper@leonard.io"
 ZIPNAME="$BASEDIR.zip"
 
 rm $ZIPNAME
